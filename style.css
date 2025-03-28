@@ -72,3 +72,16 @@ footer a:hover {
         margin-top: 2rem;
     }
 }
+
+
+.navbar-logo {
+    height: 100px;
+    width: 100px;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar-logo {
+        height: 32px;
+    }
+}
